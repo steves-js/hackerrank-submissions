@@ -17,10 +17,7 @@ if __name__ == '__main__':
 
     a = list(map(int, input().rstrip().split()))
     
-    while d > 0:
-        temp = a.pop(0)
-        a.append(temp)
-        d -= 1
+    
         
     output = '';    
     for item in a:
